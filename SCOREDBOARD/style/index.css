@@ -1,0 +1,201 @@
+html{
+  color: #dcdcdd;
+}
+
+body{
+
+  background-color: #bdd4e7;
+}
+ul{
+  list-style-type: none;
+  padding: 1rem;
+}
+main{
+  margin: 10rem auto;
+  width: 50%;
+  background-color: #46494c;
+  border: 5px solid #1985a1;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+ .section{
+  height: 8rem;
+  display: flex;
+  background-color: #1985a1;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+  overflow: hidden;
+
+ }
+ .button {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 350ms ease;
+  
+ }
+ .row-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .row-element--left{
+
+  width: 4rem;
+  /* width: clamp(2rem, 10%, 5rem); */
+   /* حتى مايتغير الحجم بالتصغير والتكبير */
+ }
+ .delete-button{
+background-color: #fe5f55;
+ }
+ .delete-button:hover{
+  background-color: #701710;
+   }
+ .row-element--center{
+ 
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  /* width: calc(100% -); */
+  /* flexbox kann hier rechnen was überbleibt  */
+ }
+ .row-element--right{
+  /* text-align: center; */
+  width: 14rem;
+  display: flex;
+  justify-content: space-around;
+
+
+  /* width: clamp(2rem, 10%, 5rem); */
+ }
+ .score-element{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .score-element--decrement{
+background-color: #fe5f55;
+width: 30%;
+
+}
+.score-element--decrement:hover{
+  background-color: #6d110a;
+ 
+  
+  }
+.score-element--current{
+  flex: 1;
+}
+ .score-element--increment{
+background-color: #0cca4a;
+width: 30%;
+ }
+ .score-element--increment:hover{
+  background-color: #174627;
+ 
+   }
+ input[type="text"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #dcdcdd;
+  width: 100%;
+  padding: .4rem 0px;
+  font-size: 1.2rem;
+ }
+ input[type="text"] :focus{
+  /* متل hover */
+  outline: none;
+  border-bottom-width: 8px ;
+  color: #dcdcdd;
+ 
+ }
+ .add-button{
+  background-color: #0cca4a;
+ }
+ .disabled {
+  cursor: not-allowed;
+  background-color: gray;
+ }
+
+
+ /* fontloading */
+
+
+
+
+
+
+
+
+/* .container{
+  background-color: #8105e7;
+  width: min(100% - 2rem, 600px);
+  margin-inline: auto;
+  height:20rem;
+  margin-top: 7rem;
+  border-radius: 5px;
+ 
+
+
+} */
+
+/* 
+.scored{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+.counter{
+border-radius: 5px;
+ margin: 5px;
+  margin-bottom: 20px;
+  height: 5rem;
+  background-color:  #B0EDF5;
+}
+.hinzufügen{
+  border-radius: 5px;
+  margin: 5px;
+  height: 5rem;
+  background-color: #B0EDF5;
+}
+h1{
+  margin-left: 8rem;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  height: 100%;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  display: inline-block;
+  
+}
+.plus{
+  background-color: #F2BFCE;
+margin-left: 27rem;
+
+
+ 
+}
+.minus{
+  background-color: #F2E6CE;
+
+
+}
+.close{
+  background-color: 	#BB0724;
+}
+
+.hinzu{
+  background-color: 	#668A74;
+ 
+} */
