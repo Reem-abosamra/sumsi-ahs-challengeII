@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<main
+  className="my-40 mx-auto w-1/2 rounded-2xl border-4 border-[#1985a1] bg-[#46494c] p-8 text-center"
+>
+  <h1>
+    Scoreboard
+  </h1>
+  <ul />
+  <form
+    className="sc-bczRLJ cnyWMw"
+    data-testid="playerName-form"
+    onSubmit={[Function]}
+  >
+    <div />
+    <div>
+      <input
+        className="sc-jSMfEi cwlJDZ"
+        data-testid="playerName-input"
+        onChange={[Function]}
+        placeholder="Enter your name"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      className="sc-eCYdqJ kLIsHT"
+      type="submit"
+    >
+      <span>
+        Hinzufügen
+      </span>
+    </button>
+  </form>
+</main>
+`;
